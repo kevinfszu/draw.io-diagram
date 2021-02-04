@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T09:56:54.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="N5F34XVTyPuBUWefZFim" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T10:03:39.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="siu6g4vkL6vnBWav1-SH" version="14.2.9" type="github">
   <diagram id="qEqpJyWe6qSXdvCc5dsq" name="Page-1">
     <mxGraphModel dx="1422" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DzDD1wnCTY82jCdEC3I6-1" value="现场协作辅助系统小程序项目" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-90" width="1180" height="2790" as="geometry">
+          <mxGeometry x="40" y="-90" width="1280" height="2790" as="geometry">
             <mxRectangle x="70" y="40" width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -13,7 +13,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="83" y="350" />
-              <mxPoint x="590" y="350" />
+              <mxPoint x="504" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -154,22 +154,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-23" value="提示用户：&lt;br&gt;登录凭证已失效，请重试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
-          <mxGeometry x="68.75" y="540" width="147.5" height="50" as="geometry" />
+          <mxGeometry x="68.75" y="730" width="147.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-14" source="kSkLTHyGIWRU16GdgBm4-24" target="kSkLTHyGIWRU16GdgBm4-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-24" value="wx.login() 获取 code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
-          <mxGeometry x="82.5" y="460" width="120" height="30" as="geometry" />
+          <mxGeometry x="82.5" y="650" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-37" value="API Service" style="swimlane;html=1;startSize=20;" parent="DzDD1wnCTY82jCdEC3I6-1" vertex="1">
-          <mxGeometry x="400" y="20" width="430" height="2770" as="geometry" />
+          <mxGeometry x="400" y="20" width="520" height="2770" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-37" source="DzDD1wnCTY82jCdEC3I6-42" target="DzDD1wnCTY82jCdEC3I6-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="460" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="28" y="390" />
+              <mxPoint x="28" y="630" />
               <mxPoint x="28" y="810" />
               <mxPoint x="100" y="810" />
             </Array>
@@ -177,11 +177,11 @@
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-33" value="有效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kSkLTHyGIWRU16GdgBm4-32">
           <mxGeometry x="-0.9595" y="1" relative="1" as="geometry">
-            <mxPoint x="-88" y="30" as="offset" />
+            <mxPoint x="-7" y="34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-42" value="token 是否有效" style="rhombus;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-37" vertex="1">
-          <mxGeometry x="126.5" y="360" width="127" height="60" as="geometry" />
+          <mxGeometry x="40" y="600" width="127" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-43" value="向&lt;br&gt;“登录凭证校验接口 auth.code2Session”&lt;br&gt;发起请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-37" vertex="1">
           <mxGeometry x="80" y="220" width="220" height="60" as="geometry" />
@@ -205,7 +205,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-48" value="&lt;span&gt;根据 openId/unionId 检查&lt;/span&gt;&lt;br&gt;&lt;span&gt;微信帐号&lt;/span&gt;&lt;br&gt;&lt;span&gt;是否已绑定协作平台帐号&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-37" vertex="1">
-          <mxGeometry x="50" y="590" width="280" height="80" as="geometry" />
+          <mxGeometry x="210" y="590" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-49" value="返回“未绑定”标记" style="rounded=0;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-37" vertex="1">
           <mxGeometry x="220" y="760" width="120" height="30" as="geometry" />
@@ -287,7 +287,7 @@
           <mxGeometry x="111.25" y="2010" width="137.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-65" value="WX API Service" style="swimlane;html=1;startSize=20;" parent="DzDD1wnCTY82jCdEC3I6-1" vertex="1">
-          <mxGeometry x="830" y="20" width="350" height="2770" as="geometry" />
+          <mxGeometry x="920" y="20" width="360" height="2770" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-66" value="登录凭证校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-65" vertex="1">
           <mxGeometry x="120" y="230" width="135" height="40" as="geometry" />
@@ -383,9 +383,11 @@
             <mxPoint x="-90" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kSkLTHyGIWRU16GdgBm4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-1" source="kSkLTHyGIWRU16GdgBm4-23" target="DzDD1wnCTY82jCdEC3I6-43">
+        <mxCell id="kSkLTHyGIWRU16GdgBm4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-1" source="kSkLTHyGIWRU16GdgBm4-23" target="DzDD1wnCTY82jCdEC3I6-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="40" y="775" />
+              <mxPoint x="40" y="585" />
               <mxPoint x="460" y="585" />
               <mxPoint x="460" y="270" />
             </Array>
@@ -393,7 +395,7 @@
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-36" value="（code）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kSkLTHyGIWRU16GdgBm4-35">
           <mxGeometry x="-0.7659" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="60" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
