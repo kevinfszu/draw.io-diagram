@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T10:30:19.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qsARZCmjML4dkL8a2GqC" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T10:39:23.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xgVNOG8e59eRDvRSYK8e" version="14.2.9" type="github">
   <diagram id="qEqpJyWe6qSXdvCc5dsq" name="Page-1">
-    <mxGraphModel dx="1422" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="4269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DzDD1wnCTY82jCdEC3I6-1" value="现场协作辅助系统小程序项目" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-90" width="1280" height="2790" as="geometry">
+          <mxGeometry x="40" y="-3480" width="1280" height="2640" as="geometry">
             <mxRectangle x="70" y="40" width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-14" value="小程序" style="swimlane;html=1;startSize=20;" parent="DzDD1wnCTY82jCdEC3I6-1" vertex="1">
-          <mxGeometry y="20" width="400" height="2770" as="geometry" />
+          <mxGeometry y="20" width="400" height="2620" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DzDD1wnCTY82jCdEC3I6-14" source="DzDD1wnCTY82jCdEC3I6-16" target="DzDD1wnCTY82jCdEC3I6-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -99,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-25" value="发起业务请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-14" vertex="1">
-          <mxGeometry x="39" y="131" width="87" height="30" as="geometry" />
+          <mxGeometry x="39" y="141" width="87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;endArrow=classic;endFill=1;" parent="DzDD1wnCTY82jCdEC3I6-14" source="DzDD1wnCTY82jCdEC3I6-27" target="DzDD1wnCTY82jCdEC3I6-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -182,7 +182,7 @@
           <mxGeometry x="63.75" y="700" width="157.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-37" value="API Service" style="swimlane;html=1;startSize=20;" parent="DzDD1wnCTY82jCdEC3I6-1" vertex="1">
-          <mxGeometry x="400" y="20" width="520" height="2770" as="geometry" />
+          <mxGeometry x="400" y="20" width="520" height="2620" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-37" source="DzDD1wnCTY82jCdEC3I6-42" target="DzDD1wnCTY82jCdEC3I6-52">
           <mxGeometry relative="1" as="geometry">
@@ -316,10 +316,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-37" value="微信登录是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-37">
-          <mxGeometry x="281.25" y="370" width="137.5" height="50" as="geometry" />
+          <mxGeometry x="281.25" y="340" width="137.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-65" value="WX API Service" style="swimlane;html=1;startSize=20;" parent="DzDD1wnCTY82jCdEC3I6-1" vertex="1">
-          <mxGeometry x="920" y="20" width="360" height="2770" as="geometry" />
+          <mxGeometry x="920" y="20" width="360" height="2620" as="geometry" />
         </mxCell>
         <mxCell id="DzDD1wnCTY82jCdEC3I6-66" value="登录凭证校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-65" vertex="1">
           <mxGeometry x="120" y="230" width="135" height="40" as="geometry" />
@@ -433,7 +433,8 @@
         <mxCell id="kSkLTHyGIWRU16GdgBm4-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-1" source="kSkLTHyGIWRU16GdgBm4-37" target="kSkLTHyGIWRU16GdgBm4-40">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="900" y="440" />
+              <mxPoint x="750" y="420" />
+              <mxPoint x="900" y="420" />
               <mxPoint x="900" y="920" />
               <mxPoint x="345" y="920" />
             </Array>
