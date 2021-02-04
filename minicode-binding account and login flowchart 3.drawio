@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T10:50:45.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0otKzKG1QnXKMGK2r01c" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T11:40:26.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qqciHw_eZH26uWqxQX3C" version="14.2.9" type="github">
   <diagram id="qEqpJyWe6qSXdvCc5dsq" name="Page-1">
     <mxGraphModel dx="1422" dy="4269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         <mxCell id="DzDD1wnCTY82jCdEC3I6-16" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-14" vertex="1">
           <mxGeometry x="45" y="61" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DzDD1wnCTY82jCdEC3I6-17" value="本地存储/请求头&lt;br&gt;有无 token" style="rhombus;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-14" vertex="1">
+        <mxCell id="DzDD1wnCTY82jCdEC3I6-17" value="读取本地&amp;nbsp;token" style="rhombus;whiteSpace=wrap;html=1;" parent="DzDD1wnCTY82jCdEC3I6-14" vertex="1">
           <mxGeometry x="19" y="220" width="127" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-14" source="DzDD1wnCTY82jCdEC3I6-21" target="DzDD1wnCTY82jCdEC3I6-22">
@@ -154,13 +154,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-23" value="提示用户：&lt;br&gt;登录凭证已失效，请重试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
-          <mxGeometry x="68.75" y="610" width="147.5" height="50" as="geometry" />
+          <mxGeometry x="98.75" y="610" width="147.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-14" source="kSkLTHyGIWRU16GdgBm4-24" target="kSkLTHyGIWRU16GdgBm4-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-24" value="wx.login() 获取 code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
-          <mxGeometry x="82.5" y="540" width="120" height="30" as="geometry" />
+          <mxGeometry x="112.5" y="540" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-14" source="kSkLTHyGIWRU16GdgBm4-40" target="DzDD1wnCTY82jCdEC3I6-22">
           <mxGeometry relative="1" as="geometry">
@@ -173,8 +173,8 @@
         <mxCell id="kSkLTHyGIWRU16GdgBm4-40" value="提示用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
           <mxGeometry x="300" y="935" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kSkLTHyGIWRU16GdgBm4-50" value="重新发起业务请求&lt;br&gt;（自动复用上一次请求对象，还是让用途重新操作？）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
-          <mxGeometry x="63.75" y="700" width="157.5" height="60" as="geometry" />
+        <mxCell id="kSkLTHyGIWRU16GdgBm4-50" value="重新发起业务请求&lt;br&gt;（自动复用上一次请求实例，还是让用途重新操作？）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DzDD1wnCTY82jCdEC3I6-14">
+          <mxGeometry x="93.75" y="700" width="157.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kSkLTHyGIWRU16GdgBm4-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-14" source="kSkLTHyGIWRU16GdgBm4-53" target="DzDD1wnCTY82jCdEC3I6-32">
           <mxGeometry relative="1" as="geometry" />
@@ -416,8 +416,9 @@
         <mxCell id="kSkLTHyGIWRU16GdgBm4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DzDD1wnCTY82jCdEC3I6-1" source="kSkLTHyGIWRU16GdgBm4-50" target="DzDD1wnCTY82jCdEC3I6-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="40" y="735" />
-              <mxPoint x="40" y="400" />
+              <mxPoint x="94" y="735" />
+              <mxPoint x="60" y="735" />
+              <mxPoint x="60" y="400" />
               <mxPoint x="460" y="400" />
               <mxPoint x="460" y="270" />
             </Array>
