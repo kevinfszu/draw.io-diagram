@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T03:04:19.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xp-93s_vezuF5sBNMOlA" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T03:07:14.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rUw9Y3N9RI-5IfmiX8Xd" version="14.2.9" type="github">
   <diagram id="qEqpJyWe6qSXdvCc5dsq" name="Page-1">
     <mxGraphModel dx="1422" dy="4306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -438,9 +438,9 @@
         <mxCell id="2wgI4SQvjtzoddSb3Q2e-102" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="2wgI4SQvjtzoddSb3Q2e-1" source="2wgI4SQvjtzoddSb3Q2e-47" target="2wgI4SQvjtzoddSb3Q2e-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2wgI4SQvjtzoddSb3Q2e-103" value="无效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wgI4SQvjtzoddSb3Q2e-102" vertex="1" connectable="0">
+        <mxCell id="2wgI4SQvjtzoddSb3Q2e-103" value="无效&lt;br&gt;（返回“token 无效”标记）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wgI4SQvjtzoddSb3Q2e-102" vertex="1" connectable="0">
           <mxGeometry x="-0.7983" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2wgI4SQvjtzoddSb3Q2e-106" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2wgI4SQvjtzoddSb3Q2e-1" source="2wgI4SQvjtzoddSb3Q2e-79" target="2wgI4SQvjtzoddSb3Q2e-40" edge="1">
