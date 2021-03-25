@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T07:41:53.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="S6LRVEJ7y8KcSup17T-_" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T08:43:21.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xlcrlj06QFSMIZXFoydH" version="14.4.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -213,17 +213,11 @@
         <mxCell id="Lb6W9lznvDvHdPBaOTak-19" value="&lt;b&gt;数字签名算法（确保完整性，并且在数字证书的帮助下，&lt;/b&gt;&lt;b&gt;提供身份认证、确保不可否认性）&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=center;pointerEvents=1;direction=south;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
           <mxGeometry x="30" y="710" width="830" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lb6W9lznvDvHdPBaOTak-23" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6Au5uzRVC5VlOYL2ylWA-5" source="Lb6W9lznvDvHdPBaOTak-21" target="6Au5uzRVC5VlOYL2ylWA-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lb6W9lznvDvHdPBaOTak-25" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6Au5uzRVC5VlOYL2ylWA-5" source="Lb6W9lznvDvHdPBaOTak-21" target="Lb6W9lznvDvHdPBaOTak-24">
+        <mxCell id="Lb6W9lznvDvHdPBaOTak-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6Au5uzRVC5VlOYL2ylWA-5" source="Lb6W9lznvDvHdPBaOTak-21" target="6Au5uzRVC5VlOYL2ylWA-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lb6W9lznvDvHdPBaOTak-21" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;decrypt (with&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;public key&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;)&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
           <mxGeometry x="200" y="499.5" width="155" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lb6W9lznvDvHdPBaOTak-24" value="数字签名被篡改" style="whiteSpace=wrap;html=1;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
-          <mxGeometry x="228" y="670" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Lb6W9lznvDvHdPBaOTak-30" value="&lt;span style=&quot;text-align: center&quot;&gt;同时，因为成功用 public key 解密，所以数字签名必定是用 Server 的 private key 加密的，&lt;br&gt;而只有 Server 拥有 private key，&lt;br&gt;所以，在“数字证书是可信的”的前提下，可以断定通信对象必定是 Server。&lt;br&gt;从而提供身份认证、确保不可否认性。&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=south;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
           <mxGeometry x="325" y="552" width="485" height="78" as="geometry" />
