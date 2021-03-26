@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T08:43:50.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5CFg7UceZkJFoD-A0xfp" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T01:55:35.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="CmYHxiOBvbmxCo5l5_VM" version="14.4.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
         <mxCell id="6Au5uzRVC5VlOYL2ylWA-29" value="signed data&lt;br&gt;(data &amp;amp; digital signature)" style="whiteSpace=wrap;html=1;" parent="6Au5uzRVC5VlOYL2ylWA-4" vertex="1">
           <mxGeometry x="260" y="480" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lb6W9lznvDvHdPBaOTak-17" value="&lt;b&gt;数字签名算法&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=center;pointerEvents=1;direction=south;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-4">
+        <mxCell id="Lb6W9lznvDvHdPBaOTak-17" value="&lt;b&gt;数字签名（生成签名。然后将 data 与 signature 一起发送出去。）&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=center;pointerEvents=1;direction=south;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-4">
           <mxGeometry x="22.5" y="650" width="415" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lb6W9lznvDvHdPBaOTak-31" value="哪些信息？&lt;br&gt;域名，邮箱&lt;br&gt;国家、省、市、公司&lt;br&gt;密码（证书的？）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-4">
@@ -210,7 +210,7 @@
         <mxCell id="Lb6W9lznvDvHdPBaOTak-12" value="证书是否已吊销？是否在有效期内？证书内的域名信息与当前网站域名是否一致？等等判断。&lt;br&gt;拿到 &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;public key&lt;/font&gt;&lt;/b&gt;。" style="whiteSpace=wrap;html=1;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
           <mxGeometry x="480" y="290" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Lb6W9lznvDvHdPBaOTak-19" value="&lt;b&gt;数字签名算法（确保完整性，并且在数字证书的帮助下，&lt;/b&gt;&lt;b&gt;提供身份认证、确保不可否认性）&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=center;pointerEvents=1;direction=south;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
+        <mxCell id="Lb6W9lznvDvHdPBaOTak-19" value="&lt;b&gt;数字签名（验证签名。确认完整性，&lt;/b&gt;&lt;b&gt;提供身份认证、确保不可否认性）&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=center;pointerEvents=1;direction=south;" vertex="1" parent="6Au5uzRVC5VlOYL2ylWA-5">
           <mxGeometry x="30" y="650" width="830" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lb6W9lznvDvHdPBaOTak-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6Au5uzRVC5VlOYL2ylWA-5" source="Lb6W9lznvDvHdPBaOTak-21" target="6Au5uzRVC5VlOYL2ylWA-40">
